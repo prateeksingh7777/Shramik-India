@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="4dp"
+    android:id="@+id/w_r_card"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_width="180dp"
+    android:background="@color/white"
+    android:layout_height="210dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shramik"
+            android:id="@+id/w_r_h_img"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:id="@+id/w_r_h_name"
+            android:textColor="@color/black"
+            android:paddingHorizontal="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/profession"
+            android:textColor="@color/black"
+            android:paddingHorizontal="5dp"
+            android:id="@+id/w_r_h_skill"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

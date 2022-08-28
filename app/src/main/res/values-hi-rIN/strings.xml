@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shram</string>
+    <string name="search">तलाशी</string>
+    <string name="sign_up_and_get_started_on_your_own_work">साइन अप करें और अपना काम शुरू करें !!</string>
+    <string name="sign_up_with_mobile_number">मोबाइल नंबर के साथ साइन अप करें</string>
+    <string name="sign_up_with_e_mail_instead">इसके बजाय ई-मेल से साइन अप करें</string>
+    <string name="enter_your_mobile_no_or_e_mail_to_sign_into_your_shramik_account">अपने श्रमिक खाते में साइन इन करने के लिए अपना मोबाइल नंबर या ई-मेल दर्ज करें।</string>
+    <string name="mobile_no">मोबाइल</string>
+    <string name="or">या</string>
+    <string name="sign_in">दाखिल करना</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="shram_just_sent_an_otp_to">SHRAMIK ने अभी-अभी एक ओटीपी भेजा है</string>
+    <string name="haven_t_recieved_the_text">पाठ प्राप्त नहीं हुआ है?</string>
+    <string name="password">पासवर्ड</string>
+    <string name="enter_your_password">अपना पासवर्ड डालें</string>
+    <string name="enter_your_name">अपना नाम दर्ज करें</string>
+    <string name="phone">फ़ोन</string>
+    <string name="_91">+91</string>
+    <string name="_99xxxxxxxx">99XXXXXXXX</string>
+    <string name="email">ईमेल</string>
+    <string name="enter_your_email">अपना ईमेल दर्ज करें</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="shramik_just_sent_an_otp_to">SHRAMIK ने अभी एक ओटीपी भेजा है</string>
+    <string name="xxxxxxxx99">XXXXXXXX99</string>
+    <string name="otp">ओटीपी</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें?</string>
+    <string name="verify">सत्यापित</string>
+    <string name="rating">रेटिंग</string>
+    <string name="name">नाम</string>
+    <string name="work">काम</string>
+    <string name="_4_74_58_rating">4.74 (58) रेटिंग</string>
+    <string name="experience">अनुभव</string>
+    <string name="previously_worked_at">पहले में काम करता था</string>
+    <string name="call">कॉल</string>
+    <string name="report">रिपोर्ट</string>
+    <string name="customer_reviews">ग्राहक समीक्षा</string>
+    <string name="explore">खोजना</string>
+    <string name="cart">कार्ट</string>
+    <string name="message">संदेश</string>
+
+
+    <string name="jobs">काम</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="workers">मज़दूर</string>
+    <string name="do_you_want_to_confirm_this_booking">क्या आप इस बुकिंग की पुष्टि करना चाहते हैं</string>
+    <string name="yes">हां!</string>
+    <string name="no">नहीं!</string>
+    <string name="location">स्थान-</string>
+    <string name="skill">कौशल</string>
+    <string name="continuee">जारी रखें</string>
+    <string name="profession">पेशा</string>
+    <string name="plumber">प्लंबर</string>
+    <string name="electrician">बिजली मिस्त्री</string>
+    <string name="carpenter">बढ़ई</string>
+    <string name="unskilled">अकुशल</string>
+    <string name="thekedaar">ठेकेदार</string>
+    <string name="book_now">अभी बुक करें</string>
+    <string name="add_address">पता जोड़ें</string>
+    <string name="done">क्लिक</string>
+    <string name="enter_your_subject">Enter your subject</string>
+    <string name="enter_your_complaint">Enter your complaint</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg_page"
+    android:padding="20dp"
+    tools:context=".RegisterEmail">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shramik_logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_marginHorizontal="3dp"
+        android:background="@drawable/light_rounded_corners"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_and_get_started_on_your_own_work"
+            android:textColor="@color/white"
+            android:textSize="20sp" android:textAlignment="center" android:textStyle="bold"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name" android:textStyle="bold" android:paddingHorizontal="5dp" android:layout_marginTop="20dp" android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/regname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginHorizontal="3dp" android:textColorHint="@color/white" android:ems="10" android:background="@drawable/dark_rounded_corners" android:elevation="3dp" android:padding="15dp" android:textColor="@color/white" android:inputType="textPersonName" android:hint="Enter your Name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/email" android:textStyle="bold" android:paddingHorizontal="5dp" android:layout_marginTop="10dp" android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/regemail"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="3dp" android:textColorHint="@color/white" android:layout_marginHorizontal="3dp" android:ems="10" android:background="@drawable/dark_rounded_corners" android:padding="15dp" android:hint="Enter your Email" android:inputType="textEmailAddress" android:textColor="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/regname"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/password" android:textStyle="bold" android:paddingHorizontal="5dp" android:layout_marginTop="10dp" android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/regpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/white"
+            android:background="@drawable/dark_rounded_corners"
+            android:padding="15dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginBottom="2dp"
+            android:elevation="3dp"
+            android:hint="@string/enter_your_password"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regemail"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/regbtnemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/light_blue_circle"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/inputBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regphone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/reggoogle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/light_blue_circle"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regbtn" app:srcCompat="@drawable/google_icon"/>
+        <ImageButton android:id="@+id/regfacebook" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="30dp" android:background="@drawable/light_blue_circle" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/regbtn" app:srcCompat="@drawable/facebook_icon"/>
+    </LinearLayout>
+
+</LinearLayout>
